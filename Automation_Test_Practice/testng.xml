@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="20" dataproviderthreadcount="20">
+
+    <test verbose="2" preserve-order="true"
+          name="D:/Complete_Automation_Accessies/TestAutomateCodeSeries/Automation_Test_Practice">
+
+        <classes>
+            <class name="TestNG.Groups">
+
+            </class>
+            <class name="TestNG.Priority">
+                <methods>
+                    <include name="highSchool"/>
+                    <include name="higherSecondary"/>
+                    <include name="degree"/>
+                </methods>
+            </class>
+            <class name="TestNG.SampleTestCases">
+                <methods>
+                    <include name="FirstTestCase"/>
+                    <include name="SecondTestCase"/>
+                    <include name="ThirdTestCase"/>
+                    <include name="FourthTestCase"/>
+                </methods>
+            </class>
+            <class name="TestNG.SuiteExample">
+                <methods>
+                    <include name="OpenGoogle"/>
+                    <include name="OpenYahoo"/>
+                    <include name="OpenBingo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Complete_Automation_Accessies/TestAutomateCodeSeries/Automation_Test_Practice/src/test/java/TestNG/Priority.java">
+        <classes>
+            <class name="TestNG.Priority">
+                <methods>
+                    <include name="highSchool"/>
+                    <include name="higherSecondary"/>
+                    <include name="degree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Complete_Automation_Accessies/TestAutomateCodeSeries/Automation_Test_Practice/src/test/java/TestNG/SampleTestCases.java">
+        <classes>
+            <class name="TestNG.SampleTestCases">
+                <methods>
+                    <include name="FirstTestCase"/>
+                    <include name="SecondTestCase"/>
+                    <include name="ThirdTestCase"/>
+                    <include name="FourthTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Complete_Automation_Accessies/TestAutomateCodeSeries/Automation_Test_Practice/src/test/java/TestNG/SuiteExample.java">
+        <classes>
+            <class name="TestNG.SuiteExample">
+                <methods>
+                    <include name="OpenGoogle"/>
+                    <include name="OpenYahoo"/>
+                    <include name="OpenBingo"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

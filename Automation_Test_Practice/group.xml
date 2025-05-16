@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Test Suite">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="vivo"/>-->
+<!--            <include name="moto"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+    <test name="Grouped Tests">
+        <parameter name="Name" value="vinoth"/>
+        <parameter name="Browser" value="Edge"/>
+        <classes>
+            <class name="TestNG.ParameterizationExample"/>
+        </classes>
+    </test>
+
+</suite>
