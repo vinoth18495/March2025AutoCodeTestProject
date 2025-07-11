@@ -11,6 +11,7 @@ public class MouseHover {
     public static void main(String[] args) {
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.shopclues.com");
+        driver.manage().window().maximize();
         WebElement hower= driver.findElement(By.xpath("//li[@id='nav_44']/child::a"));
         Actions a=new Actions(driver);
         a.clickAndHold(hower).build().perform();

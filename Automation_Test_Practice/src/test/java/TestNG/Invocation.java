@@ -6,9 +6,10 @@ import org.testng.annotations.Test;
 
 public class Invocation {
 
-    @Test(invocationCount = 2)
+    @Test(invocationCount = 5,threadPoolSize = 3)
  public void sample() {
 
      WebDriver driver = new ChromeDriver();
+     driver.get("https://www.google.com");
  }
 }

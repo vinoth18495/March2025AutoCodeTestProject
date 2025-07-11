@@ -29,8 +29,4 @@ public class SampleTestCases {
     public void sampleTest() {
         System.out.println("Executing Sample Test");
     }
-
-    
-
-
 }

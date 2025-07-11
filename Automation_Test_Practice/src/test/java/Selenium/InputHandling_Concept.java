@@ -24,6 +24,5 @@ public class InputHandling_Concept {
         String isreadonly= driver.findElement(By.id("dontwrite")).getAttribute("readonly");
         System.out.println(isreadonly);
         driver.quit();
-
     }
 }
